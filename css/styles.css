@@ -90,6 +90,10 @@ hr {
     width: 5%;
 }
 
+p{
+    line-height: 2;
+}
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
