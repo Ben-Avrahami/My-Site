@@ -4,12 +4,23 @@ body {
     font-family: 'Merriweather', serif;
     background-color: #E3FDFD;
     font-size: 1.4em;
+    color: #40514E;
 }
 
 .top-container {
     background-color: #CBF1F5;
     padding-top: 100px;
     position: relative;
+}
+
+.middle-container{
+    margin: 5% 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-bottom: 100px;
+    padding-top: 2%;
 }
 
 .top-cloud {
@@ -29,6 +40,7 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
 }
 
 .first-skill-image {
@@ -45,9 +57,9 @@ body {
     margin-left: 5%;
 }
 
-.skill-row{
+.skill-row {
     width: 50%;
-    margin: auto ;
+    margin: auto;
     text-align: left;
 }
 
@@ -63,6 +75,7 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 1%;
 }
 
 h3 {
@@ -74,4 +87,41 @@ hr {
     border-style: dotted none none;
     border-color: #71C9CE;
     border-width: 10px;
+    width: 5%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #11999E;
+    margin-top: 5%;
+}
+
+.footer-text {
+    color: #EAF6F6;
 }
