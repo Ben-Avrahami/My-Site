@@ -19,7 +19,7 @@ body {
 
 .bottom-container {
     background-color: #66BFBF;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-top: 2%;
 }
 
@@ -123,9 +123,17 @@ p{
 
 .footer-link {
     color: #11999E;
-    margin-top: 5%;
+    margin: 0.5%;
+    text-decoration: none;
 }
 
 .footer-text {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+.footer-link:hover{
     color: #EAF6F6;
 }
