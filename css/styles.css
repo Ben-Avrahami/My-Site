@@ -137,3 +137,7 @@ p{
 .footer-link:hover{
     color: #EAF6F6;
 }
+
+.body_img:hover {
+    transform: scale(1.2); 
+  }
